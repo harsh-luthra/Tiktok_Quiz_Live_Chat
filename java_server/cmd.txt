@@ -1,0 +1,4 @@
+java -jar tiktok_chat_server.jar
+
+
+USE JDK 17 or JRE 17 to run this 
