@@ -1,16 +1,22 @@
-# tiktok_quiz_ui
+Tiktok_Quiz_Live_Chat is an interactive quiz system designed for TikTok Live, combining a Flutter-based web UI with a Java backend that fetches real-time live chat data. The app enables TikTok creators to engage their audience through live quizzes where viewers participate by answering questions in the chat.
 
-A new Flutter project.
+🔧 Tech Stack:
+Java: Connects to TikTok live chat, processes responses, and manages quiz logic.
 
-## Getting Started
+Flutter (Web): Provides an intuitive and dynamic user interface built using Fiverr-based UI design.
 
-This project is a starting point for a Flutter application.
+Custom Server: Sends real-time updates from the Java backend to the Flutter frontend using WebSockets or HTTP, enabling live scoreboard updates.
 
-A few resources to get you started if this is your first Flutter project:
+📌 Features:
+Display quizzes live to viewers during TikTok streams.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Detect chat responses and match them against correct answers.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Track the first correct responder for each question.
+
+Maintain a live leaderboard based on viewer responses.
+
+Automatically update and display results once the quiz ends.
+
+🚀 Use Case:
+Ideal for TikTok streamers who want to increase engagement by hosting real-time quizzes with live scoring and instant feedback for participants.
